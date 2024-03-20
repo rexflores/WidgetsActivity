@@ -1,0 +1,51 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:layout_margin = "16dp"
+    android:orientation = "vertical"
+    tools:context = ".SecondActivity">
+
+    <TextView
+        android:id = "@+id/name_view"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_gravity = "center"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id = "@+id/cas_view"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_gravity = "center"
+        android:layout_margin="20dp" />
+
+    <TextView
+        android:id = "@+id/gen_view"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_gravity = "center"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id = "@+id/bday_view"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_gravity = "center"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id = "@+id/school_view"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_gravity = "center"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id = "@+id/contact_view"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_gravity = "center"
+        android:layout_margin="20dp"/>
+</LinearLayout>
